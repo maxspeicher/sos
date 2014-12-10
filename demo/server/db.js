@@ -18,7 +18,7 @@
       port: 3306,
       name: "wappu",
       user: "root",
-      password: "abcd1234"
+      password: ""
     }
   };
 
