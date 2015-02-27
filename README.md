@@ -1,7 +1,12 @@
 S.O.S.: The SERP Optimization Suite
 ===================================
 
-The plug-in provided by this repository extends [WaPPU](https://github.com/maxspeicher/wappu-service)--a tool for split testing based on usability scores--to form *S.O.S.: The SERP<sup>1</sup> Optimization Suite*. S.O.S. can be used to evaluate SERPs based on WaPPU's scores. As soon as the suite detects suboptimal usability scores, it points out potential causes for these and proposes corresponding adjustments to improve the SERP interface.
+Copyright &copy; 2013&ndash;2014  Maximilian Speicher.
+The commercial use of this software or derivatives thereof is subject to certain restrictions (until January 1, 2020) and thus not generally permitted. If you would like to use the software or derivatives for commercial purposes, please contact the copyright holder.
+
+----------
+
+The plug-in provided by this repository extends [WaPPU](https://github.com/maxspeicher/wappu-service)&mdash;a tool for split testing based on usability scores--to form *S.O.S.: The SERP<sup>1</sup> Optimization Suite*. S.O.S. can be used to evaluate SERPs based on WaPPU's scores. As soon as the suite detects suboptimal usability scores, it points out potential causes for these and proposes corresponding adjustments to improve the SERP interface.
 
 <sup>1</sup> SERP = search engine results page
 
@@ -20,7 +25,7 @@ WaPPU is a tool for usability-based A/B testing that enables the prediction of u
 ## How to run the Demo?
 
 1. Set up a MySQL database called *wappu* and create tables using the scripts provided under [demo/db-scripts](demo/db-scripts).
-2. Clone my [statistics-utils](https://github.com/maxspeicher/statistics-utils) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.13162.svg)](http://dx.doi.org/10.5281/zenodo.13162) repository.
+2. Clone my [statistics-utils](https://github.com/maxspeicher/statistics-utils) repository.
 3. Enter your database credentials in [statistics-utils/src/main/resources/application.properties](https://github.com/maxspeicher/statistics-utils/blob/master/src/main/resources/application.properties).
 4. Deploy the statistics-utils software using `mvn package tomcat:run -Dmaven.tomcat.port=8082`. It now runs under `http://localhost:8082/statistics-utils`.
 5. Clone this repository.
