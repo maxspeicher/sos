@@ -37,6 +37,6 @@ WaPPU is a tool for usability-based A/B testing that enables the prediction of u
 
 ## Publications
 
-* Maximilian Speicher, Andreas Both, and Martin Gaedke (2015). "S.O.S.: Does Your Search Engine Results Page (SERP) Need Help?" In: *Proc. CHI*. :trophy: Best Paper Honorable Mention Award.
-* Maximilian Speicher, Andreas Both, and Martin Gaedke (2014). "Ensuring Web Interface Quality through Usability-based Split Testing". In: *Proc. ICWE*.
-* Maximilian Speicher, Andreas Both, and Martin Gaedke (2014). "WaPPU: Usability-based A/B Testing". In: *Proc. ICWE (Demos)*.
+* Maximilian Speicher, Andreas Both, and Martin Gaedke (2015). "S.O.S.: Does Your Search Engine Results Page (SERP) Need Help?" In: *Proc. CHI*. :trophy: Best Paper Honorable Mention Award. http://dl.acm.org/citation.cfm?doid=2702123.2702568
+* Maximilian Speicher, Andreas Both, and Martin Gaedke (2014). "Ensuring Web Interface Quality through Usability-based Split Testing". In: *Proc. ICWE*. http://link.springer.com/chapter/10.1007%2F978-3-319-08245-5_6
+* Maximilian Speicher, Andreas Both, and Martin Gaedke (2014). "WaPPU: Usability-based A/B Testing". In: *Proc. ICWE (Demos)*. http://link.springer.com/chapter/10.1007%2F978-3-319-08245-5_47
